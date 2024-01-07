@@ -77,8 +77,3 @@ void	ft_putnbr_base(int nbr, char *base)
 	while (i > 0 && eror(base) == 1)
 		wrt(c[--i]);
 }
-int main()
-{
-	ft_putnbr_base(-555,"abcde");
-	write (1, "\n", 1);
-}
