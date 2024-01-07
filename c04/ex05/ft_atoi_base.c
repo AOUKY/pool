@@ -109,14 +109,3 @@ int	ft_atoi_base(char *str, char *base)
 	else 
 		return (-nb);
 }
-
-#include <stdio.h>
-
-int main()
-{
-	char *s = " ---0101011101hfhf";
-	char *b = "01";
-	int n = ft_atoi_base(s,b);
-	//printf("this is it : %d\n",ft_atoi_base("    --++----ab88jjjjjj","a0cb"));
-	printf("this is it : %d \n",n);
-}
